@@ -1,0 +1,22 @@
+.page-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.project-component {
+    border: 1px solid black;
+}
+
+.quote {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+    width: 60vw;
+}
+
+.personality-container {
+    
+}
