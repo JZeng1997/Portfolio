@@ -3,3 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+.bg {
+  background: url('./Media/developer2.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}

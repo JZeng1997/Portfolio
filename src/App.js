@@ -7,6 +7,8 @@ import About from './pages/about';
 import Skills from './pages/skills';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
+import Footer from './Components/Footer/footer';
+import bubbles_bg from './Media/blue_bubbles_background.jpg'
 
 function Header() {
   const [str, changeText] = useState(() => {return 'Hello'});
@@ -31,21 +33,17 @@ function Header() {
 
 function App() {
   return (
-    <>
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/skills' component={Skills} />
-        <Route path='/projects' component={Projects} />
-        <Route path='/contact' component={Contact} />
-      </Switch>
-    </Router>
-    <div className="App">
-      <Header />
-    </div>
-    </>
+    <div className='bg'>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+      </Router>
+      <Footer/>
+    </ div >
   );
 }
 

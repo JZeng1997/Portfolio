@@ -5,13 +5,11 @@ const Navbar = () => {
     return (
         <>
             <Nav>
-                <NavLink to="/">
-                    <h1>Logo</h1>
-                </NavLink>
                 <Bars />
+                <NavLink to="/">
+                    <h1>About</h1>
+                </NavLink>
                 <NavMenu>
-                    <NavBtnLink to="/about">About</NavBtnLink>
-                    <NavBtnLink to="/skills">Skills</NavBtnLink>
                     <NavBtnLink to="/projects">Projects</NavBtnLink>
                     <NavBtnLink to="/contact">Contact</NavBtnLink>
                 </NavMenu>

@@ -3,28 +3,22 @@ import './page-styles.css'
 
 const About = () => {
     return (
-        <div className='page-container'>
-            <h1>About</h1>
-            <h2>Goal</h2>
-            <div className='personality-container'>
-                <h2>Quick learner</h2>
+        <div className='centered'>
+            <div className='bio'>
+                <div className='intro transparent-bg'>
+                    <h1> Hello I'm<br/>Joseph Zeng </h1>
+                    <h3>Aspiring Software Developer|</h3>
+                    <h3>Passionate for quality code</h3>
+                </div>
+                <div className='aboutme-container transparent-bg'>
+                    <p>
+                        I started my programming journey when I took my first computer science class in high school and joined a summer coding camp 
+                        later that year. I found my passion in software development and pursued and obtained a MS in Computer Science from the Colorado 
+                        School of Mines.
+                        I want to put my diverse skill-set I gained from my education towards a challenging yet fulfilling career as a software developer
+                    </p>
+                </div>
             </div>
-            <div className='personality-container'>
-                <h2>Driven</h2>
-                <p>Staying dedicated to a task without giving up no matter how hard it gets. </p>
-            </div>
-            <div className='personality-container'>
-                <h2>Always Improving</h2>
-                <p>Whether its learning something new, improving my programming skills, or working out; I'm always looking to push my limits.</p>
-            </div>
-            <h2>Hobbies</h2>
-            <p>
-                Shaolin Kung Fu, Tai Chi, Archery, Working out, Hiking, Escape Rooms
-            </p>
-            <p>MAKE A HOBBIES CONTAINER FOR EACH HOBBY</p>
-            <p>
-                <h1>Shaolin</h1>
-            </p>
         </div>
     )
 }

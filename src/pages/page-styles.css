@@ -2,7 +2,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 80vh;
+    /*height: 80vh;*/
+    min-height: 50vh;
     flex-direction: column;
 }
 
@@ -10,13 +11,45 @@
     border: 1px solid black;
 }
 
-.quote {
-    border: 1px solid grey;
-    text-align: center;
+.aboutme-container {
+    text-align: left;
     padding: 10px;
     width: 60vw;
 }
 
-.personality-container {
-    
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 80vw;
+}
+
+.skill {
+    height: 15vw;
+    width: 15vw;
+}
+
+.skillBox {
+    width: 16vw;
+    padding: 5px;
+}
+
+.centered {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bio {
+    display: flex;
+    width: 90vw;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.transparent-bg {
+    background: rgba(255,255,255,.8)
 }
